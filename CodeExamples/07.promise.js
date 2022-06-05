@@ -26,6 +26,7 @@ const goodCode = async (count) => {
     console.log(`Good: ${count}`);
     count = await goodIoOperation(count);
   }
+  return "Complete";
 };
 
-goodCode(10).then(() => {});
+goodCode(10).then((x) => console.log(x));

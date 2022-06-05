@@ -22,7 +22,9 @@ function badCode(firstName, lastName, message) {
 // This is clean code
 
 const cleanPrintMessage = ({ message }) => console.log(`Message: ${message}`);
+
 const cleanSayHello = ({ firstName }) => console.log(`Hello ${firstName}`);
+
 const cleanCode = (firstName, lastName, message) => {
   let user = { firstName, lastName, message };
   console.log(user);
